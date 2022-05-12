@@ -72,3 +72,23 @@
 
 // EX 5
 // Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. 1 house  = 6 sticks
+// function matchHouses(step) {
+//   const oneHouse = 6
+//   const nextHouse = 5
+
+// 	if(step === 0 ) {
+//     return 0
+//   } else if (step === 1) {
+//     // console.log(oneHouse)
+//     return oneHouse
+//   } else if (step > 0 ) {
+//     console.log(nextHouse * (step -1) + oneHouse)
+//     return nextHouse * (step -1) + oneHouse
+//   } else {
+//     return false
+//   }
+// }
+
+// matchHouses(1)
+// matchHouses(4)
+// matchHouses(87) 
