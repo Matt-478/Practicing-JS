@@ -1,3 +1,4 @@
+// EX 1
 // function addUp(num) {
 // 	let current = 0
 // 	for(let i = 1; i <= num; i++) {
@@ -9,7 +10,7 @@
 // addUp(4)
 
 
-
+// EX 2
 // Bitwise Operations
 // function bitwiseAND(n1, n2) {
 // 	let result = n1 & n2
@@ -26,7 +27,7 @@
 // 	return result
 // }
 
-
+// EX 3
 // Which Function Returns the Larger Number?
 // Your function will be passed two functions, f and g, that don't take any parameters. Your function has to call them, and return a string which indicates which function returned the larger number.
 // function whichIsLarger(f, g) {
@@ -52,7 +53,7 @@
 
 
 
-
+// EX 4
 // Create a function that accepts a Date object and returns true if it's Christmas Eve (December 24th) and false otherwise. Keep in mind JavaScript's Date month is 0 based, meaning December is the 11th month while January is 0.
 // function timeForMilkAndCookies(date) {
 //   if(date.getDate() === 24 && date.getMonth() === 11) {
@@ -67,3 +68,7 @@
 // timeForMilkAndCookies(new Date(2154, 11, 11))
 // timeForMilkAndCookies(new Date(2010, 11, 2))
 // timeForMilkAndCookies(new Date(1980, 9, 24))
+
+
+// EX 5
+// Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. 1 house  = 6 sticks
