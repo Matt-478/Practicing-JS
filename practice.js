@@ -92,3 +92,22 @@
 // matchHouses(1)
 // matchHouses(4)
 // matchHouses(87) 
+
+
+
+// EX 6
+// Write a function that takes a string (a) as argument
+// Extract the first half a
+// Return the result
+
+// function myFunction(a) {
+//   // 1. split the string in half - take the length, divide it by 2 and then use it in the slice method
+//   let strLength = a.length / 2
+//   let result = a.slice(0, strLength)
+
+//   return result
+// }
+
+// myFunction('abcdefgh')
+// myFunction('1234')
+// myFunction('gedcba')
