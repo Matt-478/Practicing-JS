@@ -111,3 +111,21 @@
 // myFunction('abcdefgh')
 // myFunction('1234')
 // myFunction('gedcba')
+
+
+
+// EX 7
+// Write a function that takes an object (a) and a string (b) as argument
+// Return true if a has a property with key b
+// Return false otherwise
+
+// function myFunction(a, b){
+//   if(a.hasOwnProperty(b)) {
+//     console.log("IS A YEA")
+//   } else {
+//     console.log("IS A NOAOAOANOANA")
+//   }
+// }
+//   myFunction({a:1,b:2,c:3},'b')
+//   myFunction({x:'a',y:'b',z:'c'},'a')
+//   myFunction({x:'a',y:'b',z:'c'},'z')
