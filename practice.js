@@ -129,3 +129,16 @@
 //   myFunction({a:1,b:2,c:3},'b')
 //   myFunction({x:'a',y:'b',z:'c'},'a')
 //   myFunction({x:'a',y:'b',z:'c'},'z')
+
+
+
+// EX 8
+// Write a function that takes a string (a) and a number (n) as argument
+// Return the nth character of 'a'
+// function myFunction(a, n){
+//   let newStr = a.slice(n-1, n)
+//   return newStr
+// }
+
+// myFunction('abcd',1)
+// myFunction('zyxbwpl',5)
