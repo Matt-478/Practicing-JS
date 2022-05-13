@@ -340,3 +340,18 @@
 // // Expected '1'
 // myFunction('fgedcba')
 // Expected 'fged'
+
+
+
+// EX 20
+// Write a function that takes an object with two properties and a string as arguments
+// It should return the value of the property with key equal to the value of the string
+// function myFunction(obj, key){
+//   // console.log(obj[key])
+//   return obj[key]
+// }
+
+// myFunction({  continent: 'Asia',  country: 'Japan'}, 'continent')
+// // Expected 'Asia'
+// myFunction({  country: 'Sweden',  continent: 'Europe'}, 'country')
+// Expected 'Sweden'
