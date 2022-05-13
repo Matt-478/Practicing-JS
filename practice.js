@@ -306,20 +306,37 @@
 // EX 18
 // Write a function that takes an array of numbers as argument
 // Return the number of negative values in the array
-function myFunction(a){
-  let count = 0
-  for(let i = 0; i < a.length; i ++) {
-    if(a[i] < 0) {
-      count++
-    } 
-  }
-  // console.log(count)
-  return count
-  // ALTERNATIVE:  return a.filter((el) => el < 0).length;
-}
-myFunction([1,-2,2,-4])
-// Expected 2
-myFunction([0,9,1])
-// Expected 0
-myFunction([4,-3,2,1,0])
+// function myFunction(a){
+//   let count = 0
+//   for(let i = 0; i < a.length; i ++) {
+//     if(a[i] < 0) {
+//       count++
+//     } 
+//   }
+//   // console.log(count)
+//   return count
+//   // ALTERNATIVE:  return a.filter((el) => el < 0).length;
+// }
+// myFunction([1,-2,2,-4])
+// // Expected 2
+// myFunction([0,9,1])
+// // Expected 0
+// myFunction([4,-3,2,1,0])
 // Expected 1
+
+
+// EX 19
+// Write a function that takes a string (a) as argument
+// Remove the last 3 characters of a
+// Return the result
+// function myFunction(a){
+//   // console.log(a.slice(0, -3))
+//   return a.slice(0, -3)
+// }
+
+// myFunction('abcdefg')
+// // Expected 'abcd'
+// myFunction('1234')
+// // Expected '1'
+// myFunction('fgedcba')
+// Expected 'fged'
