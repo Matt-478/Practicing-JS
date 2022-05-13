@@ -171,12 +171,32 @@
 // EX 10
 // Write a function that takes an array (a) as argument
 // Return the number of elements in a
-function myFunction(a){
-  return a.length
-}
-myFunction([1,2,2,4])
-// Expected 4
-myFunction([9,9,9])
-// Expected 3
-myFunction([4,3,2,1,0])
+// function myFunction(a){
+//   return a.length
+// }
+// myFunction([1,2,2,4])
+// // Expected 4
+// myFunction([9,9,9])
+// // Expected 3
+// myFunction([4,3,2,1,0])
 // Expected 5
+
+
+
+// EX 11
+// Write a function that takes two values, say a and b, as arguments
+// Return true if the two values are equal and of the same type
+// function myFunction (a, b){
+//   if(a === b) {
+//     console.log(true)
+//   } else {
+//     console.log(false)
+//   }
+// }
+// myFunction(2, 3)
+// // Expected false 
+// myFunction(3, 3)
+// // Expected true 
+// myFunction(1, '1')
+// // Expected false 
+// myFunction('10', '10')
