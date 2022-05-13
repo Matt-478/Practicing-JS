@@ -216,3 +216,21 @@
 // myFunction('1234')
 // // Expected '123'
 // myFunction('fgedcba')
+
+
+// EX 13
+// Write a function that takes a string as argument
+// Extract the last 3 characters from the string
+// Return the result
+// function myFunction(str){
+//   let result = str.slice(str.length - 3)
+//   return result
+// alternative : return str.slice(-3)
+// }
+
+// myFunction('abcdefg')
+// // Expected 'efg'
+// myFunction('1234')
+// // Expected '234'
+// myFunction('fgedcba')
+// // Expected 'cba'
