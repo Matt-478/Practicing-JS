@@ -142,3 +142,27 @@
 
 // myFunction('abcd',1)
 // myFunction('zyxbwpl',5)
+
+
+
+// EX 9
+// Write a function that takes two strings (a and b) as arguments
+// Create an object that has a property with key 'a' and a value of 'b'
+// Return the object
+// function myFunction (a, b){
+//   const obj = {
+//     key: b
+//   }
+
+//   obj[a] = obj.key
+//   delete obj.key 
+//   // console.log(obj)
+
+//   return  obj
+//   // better solution    return { [a]: b };
+// }
+// myFunction('a','b')
+// // Expected {a:'b'}
+// myFunction('z','x')
+// // Expected {z:'x'}
+// myFunction('b','w')
