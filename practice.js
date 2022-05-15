@@ -396,45 +396,16 @@
 
 
 
-// EX 23
-// Write a function that takes an array of strings as argument
-// Group those strings by their first letter
-// Return an object that contains properties with keys representing first letters
-// The values should be arrays of strings containing only the corresponding strings
-// For example, the array ['Alf', 'Alice', 'Ben'] should be transformed to
-// { a: ['Alf', 'Alice'], b: ['Ben']}
-function myFunction(arr){
-  let sortedArr = arr.sort()
-  // console.log(sortedArr)
 
-  // sortedArr.map((word) => {
-  //   let firstChar = word[0]
-  //   // console.log(firstChar)
-    
-  //   const objOne = {
-  //     [firstChar]: word
-  //   }
-  //   console.log(objOne)
-  // })
 
-  const objOne = {
-    firstChar: 
-  }
+// THE TEST PRE-EXERCISE
+// function fizzBuzz(n) {
+//   for (let i = 1; i <= n; i++) {
+//     if(i % 3 == 0) console.log("Fizz")
+//     else if (i % 5 == 0) console.log("Buzz")
+//     else if (i % 15 == 0)  console.log("FizzBuzz")
+//     else console.log(i)
+//   }
+// }
 
-  for(let i = 0; i< sortedArr.length; i++) {
-    let firstChar = sortedArr[i][0]
-    console.log(firstChar)
-
-    const objOne = {
-      [firstChar]: sortedArr[i]
-    }
-    console.log(objOne)
-  }
-}
-
-myFunction(['Alf', 'Alice', 'Ben'])
-// Expected { a: ['Alf', 'Alice'], b: ['Ben']}
-myFunction(['Ant', 'Bear', 'Bird'])
-// Expected { a: ['Ant'], b: ['Bear', 'Bird']}
-myFunction(['Berlin', 'Paris', 'Prague'])
-// Expected { b: ['Berlin'], p: ['Paris', 'Prague']}
+// fizzBuzz(15)
