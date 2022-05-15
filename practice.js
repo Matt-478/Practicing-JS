@@ -409,3 +409,37 @@
 // }
 
 // fizzBuzz(15)
+
+
+
+// THE FINAL
+function myFunction(givenString) {
+  // access each of the letter
+  let subGivenStr = givenString.split("")
+  // console.log(subGivenStr) 
+
+  // cut out repeating letters
+  let repeatingCharsArr = subGivenStr.filter(function(item, pos, self) {
+    return self.indexOf(item) == pos;
+  })
+  // console.log(repeatingCharsArr)
+  
+  // loop over current array and find where repeats
+
+  // if givenString repeats repeatingCharsArr then split at that index - also get that index
+
+    for(let j = 0; j < subGivenStr.length; j++) {
+        // if(subGivenStr[j] ===) {
+          // console.log(subGivenStr[j])
+        // }
+    }
+
+    let  match = repeatingCharsArr;
+    let  str = givenString;
+    let index = str.indexOf(match);
+    let  res = str.substring(0, index) + ',' + str.substring(index + 1);
+    console.log(res); // me,sage
+}
+
+// myFunction("bab")
+myFunction("dabbcabcd")
